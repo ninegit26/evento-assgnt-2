@@ -1,0 +1,27 @@
+@import "./componentes/body";
+@import "./componentes/header";
+@import "./componentes/container";
+@import "./componentes/chamada";
+@import "./componentes/sobre";
+@import "./componentes/hero-nav";
+@import "./componentes/hero-texto";
+@import "./componentes/atracoes";
+@import "./componentes/atracoes_imgs";
+@import "./componentes/infos";
+@import "./componentes/contato";
+@import "./componentes/partocinios";
+@import "./componentes/footer";
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,48 @@
+.contato {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .contato-1 {
+        background-color: #f4f4f4;
+        width: 50%;
+        height: 843px;
+    }
+
+    .contato-2 {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        padding: 0px 160px;
+
+        p {
+            margin-left: 30px;
+        }
+
+        input {
+            border-radius: 15px 0px 0px 15px;
+            border-style: 1px solid black;
+        }
+
+        .enviar {
+            height: 64px;
+            width: 173px;
+            border-radius: 0px 15px 15px 0px;
+            background-color: #1005FF;
+            border-style: none;
+            color: white;
+
+        }
+    }
+
+    div {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+
+    }
+}

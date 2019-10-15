@@ -1,0 +1,42 @@
+.sobre-section {
+    display: flex;
+    height: 891px;
+    background-color: #F3F7F8;
+}
+
+.sobre-evento {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+
+    .subtitulo {
+        padding: 0px 150px;
+    }
+
+    .texto {
+        padding: 0px 150px;
+        margin-bottom: 100px;
+    }
+
+    .ingresso {
+        height: 69px;
+        width: 254px;
+        border-radius: 15px;
+        background-color: #0FDC2A;
+        border-style: none;
+    }
+}
+
+.sobre-imagem {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 727px;
+        height: 569px;
+    }
+}

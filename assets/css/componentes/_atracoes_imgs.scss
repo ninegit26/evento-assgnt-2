@@ -1,0 +1,33 @@
+.atracoes-imgs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-bottom: 150px;
+
+    .atracao-grande {
+        flex-grow: 1;
+        height: 760px;
+        width: 760px;
+        border: 1px solid black;
+        margin-right: 150px;
+        // margin-left: 50px;
+    }
+
+    .atracao-grid {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        height: 760px;
+
+
+        .atracao {
+            height: 360px;
+            width: 360px;
+            border: 1px solid black;
+            margin-bottom: 44px;
+        }
+    }
+}

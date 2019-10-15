@@ -1,0 +1,27 @@
+.hero-nav {
+    background-image: url("../../assets/imagens/banner_site_nine.png");
+    background-size: cover;
+    resize: both;
+    height: 100vh;
+
+    >.container {
+        height: 96%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+    }
+
+    .dashes {
+        position: relative;
+    }
+
+    .logo {
+        font-size: 1.8em;
+    }
+
+    span {
+        position: absolute;
+        top: 0px;
+        left: 110px;
+    }
+}
