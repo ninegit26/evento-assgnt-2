@@ -1,31 +1,36 @@
 .atracoes-imgs {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    height: 760px;
     // margin-bottom: 150px;
-
     .atracao-grande {
-        flex-grow: 1;
-        height: 760px;
-        width: 760px;
-        border: 1px solid black;
-        margin-right: 150px;
+        display: flex;
+        // flex-grow: 1;
+        height: 100%;
+        width: 50%;
+        // margin-right: 60px;
+        justify-content: center;
+        align-items: center;
         // margin-left: 50px;
+        .atracao-g {
+            border: 1px solid black;
+            height: 55%;
+            width: 55%;
+            margin-bottom: 44px;
+        }
     }
-
     .atracao-grid {
         width: 50%;
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: flex-start;
-        height: 760px;
-
-
+        justify-content: space-around;
+        align-content: center;
         .atracao {
-            height: 360px;
-            width: 360px;
+            height: 25%;
+            width: 40%;
             border: 1px solid black;
             margin-bottom: 44px;
         }

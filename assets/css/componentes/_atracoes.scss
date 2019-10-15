@@ -1,14 +1,15 @@
 .container-atracoes {
-    height: 1184px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 60px;
 }
 
 .atracoes {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 100px;
+    // padding-bottom: 40px;
 }

@@ -10,16 +10,13 @@
     width: 50%;
     justify-content: center;
     align-content: center;
-
     .subtitulo {
-        padding: 0px 150px;
+        padding: 0px 80px;
     }
-
     .texto {
-        padding: 0px 150px;
+        padding: 0px 80px;
         margin-bottom: 100px;
     }
-
     .ingresso {
         height: 69px;
         width: 254px;
@@ -34,9 +31,8 @@
     width: 50%;
     justify-content: center;
     align-items: center;
-
     img {
-        width: 727px;
-        height: 569px;
+        width: 90%;
+        // height: 569px;
     }
 }
