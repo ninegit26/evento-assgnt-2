@@ -5,6 +5,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    .celdoc {
+        width: 220px;
+        height: 80px;
+    }
+
     img {
         height: 120px;
     }

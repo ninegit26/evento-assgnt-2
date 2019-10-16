@@ -584,6 +584,11 @@ body {
           align-items: center;
 }
 
+.patrocinios .celdoc {
+  width: 220px;
+  height: 80px;
+}
+
 .patrocinios img {
   height: 120px;
 }
