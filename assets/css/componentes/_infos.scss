@@ -6,4 +6,37 @@
     background-color: #1d1d1d;
     color: white;
     height: 444px;
+
+    .local {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .infos {
+        flex-direction: column;
+
+        .data {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hora {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .local {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
 }

@@ -1,6 +1,6 @@
 .sobre-section {
     display: flex;
-    height: 891px;
+    height: 1300px;
     background-color: #F3F7F8;
 }
 
@@ -10,13 +10,16 @@
     width: 50%;
     justify-content: center;
     align-content: center;
+
     .subtitulo {
         padding: 0px 80px;
     }
+
     .texto {
         padding: 0px 80px;
         margin-bottom: 100px;
     }
+
     .ingresso {
         height: 69px;
         width: 254px;
@@ -31,8 +34,45 @@
     width: 50%;
     justify-content: center;
     align-items: center;
+
     img {
         width: 90%;
         // height: 569px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sobre-section {
+        display: block;
+        height: 1000px;
+    }
+
+    .sobre-evento {
+        width: 100%;
+    }
+
+    .sobre-imagem {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .sobre-section {
+        display: block;
+        font-size: .8em;
+        height: 1200px;
+    }
+
+    .sobre-evento {
+        width: 100%;
+    }
+
+    .sobre-imagem {
+        width: 100%;
+
+        img {
+            width: 50%;
+            margin-top: 60px;
+        }
     }
 }

@@ -25,3 +25,23 @@
         left: 110px;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .nav-items {
+        font-size: .7em;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar {
+        .container {
+            padding-left: 30px;
+
+            .nav-items {
+                .nav-list {
+                    display: block;
+                }
+            }
+        }
+    }
+}

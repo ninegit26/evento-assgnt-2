@@ -3,26 +3,28 @@
     align-items: flex-start;
     font-size: 1.5em;
     margin: 0px 30px 15px 30px;
-
     >.container {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         .nav-items {
             // flex-grow: 1;
             align-items: center;
-
             ul {
                 display: flex;
                 flex-direction: row;
                 list-style: none;
                 flex-wrap: wrap;
-
                 li {
                     margin-right: 50px;
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar {
+        margin: 0px;
     }
 }
