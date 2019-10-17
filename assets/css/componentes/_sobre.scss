@@ -37,18 +37,22 @@
 
     img {
         width: 90%;
-        // height: 569px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1080px) {
     .sobre-section {
-        display: block;
-        height: 1000px;
-    }
-
-    .sobre-evento {
+        font-size: .8em;
+        height: 800px;
         width: 100%;
+        display: block;
+
+        .sobre-evento {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .sobre-imagem {
@@ -56,23 +60,14 @@
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 612px) {
     .sobre-section {
-        display: block;
-        font-size: .8em;
         height: 1200px;
     }
+}
 
-    .sobre-evento {
-        width: 100%;
-    }
-
-    .sobre-imagem {
-        width: 100%;
-
-        img {
-            width: 50%;
-            margin-top: 60px;
-        }
+@media only screen and (max-width: 368px) {
+    .sobre-section {
+        height: 1600px;
     }
 }

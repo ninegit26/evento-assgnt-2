@@ -11,15 +11,12 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-
-    // padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 420px) {
     .container-atracoes {
         display: block;
         height: 1200px;
-        // margin: 0px 30px 0px 30px;
     }
 
     .atracoes {

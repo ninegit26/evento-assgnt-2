@@ -26,13 +26,7 @@
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .nav-items {
-        font-size: .7em;
-    }
-}
-
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 1080px) {
     .navbar {
         .container {
             padding-left: 30px;
@@ -43,5 +37,11 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-items {
+        font-size: .7em;
     }
 }
